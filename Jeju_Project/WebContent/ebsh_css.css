@@ -1,0 +1,227 @@
+@charset "EUC-KR";
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Song+Myung');
+
+/*사이드 메뉴바*/
+
+  #page-wrapper {
+    padding-left: 90px;
+  }
+  
+  /* 메뉴바  */
+  #sidebar-wrapper {
+    position: fixed;
+    width: 90px;
+    height: 100%;
+    margin-left: -100px;
+    margin-top: -10px;
+    background: #635A58;
+  }
+  
+  #page-content-wrapper {
+    width: 100%;
+  }
+  
+  /* 메뉴 스타일 */
+  .sidebar-nav {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .sidebar-nav li {
+    text-indent: 1.5em;
+    line-height: 5em;
+  }
+  
+  .sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+  }
+  
+  .sidebar-nav li a:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+
+	#zido-size{
+		position:fixed;
+		margin-top : 80px;
+		margin-left:470px;
+	}
+	
+	
+	#logo-size{
+		position:fixed;
+		margin-left:110px;
+		margin-top: 80px;
+	}
+	
+	
+	
+	#link-jeju{
+		position:fixed;
+		margin-left:130px;
+		margin-top: 180px;
+		font-family: 'Nanum Myeongjo', serif;
+		font-size : 18px;
+	}
+	
+
+	#term{
+		position : fixed;
+		margin-left:130px;
+		margin-top: 520px;
+		font-family : 'Nanum Myeongjo', serif;
+		font-size : 24px;
+		color : #FFF;
+	}
+	
+	#txtbox{
+		position : fixed;
+		margin-left:130px;
+		margin-top: 550px;
+	}
+	
+	
+	.btn1 {
+		position : fixed;
+		margin-left:269px;
+		margin-top: 585px;
+	    background-color: white;
+    	border: none;
+    	color: #635A58;
+    	padding: 4px 4px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 14px;
+    	-webkit-transition-duration: 0.4s;
+    	transition-duration: 0.4s;
+    }
+	
+	.btn1:hover {
+    	background-color: #5A5A5A; 
+    	color: black;
+	}
+	
+	#date-size{
+		position : fixed;
+		margin-left:950px;
+		margin-top: 100px;
+		font-family : 'Nanum Myeongjo', serif;
+		font-size : 24px;
+		color : black;
+	}
+	
+	#next-size{
+		position : fixed;
+		margin-left:1060px;
+		margin-top: 100px;
+	}
+	
+	#pre-size{
+		position : fixed;
+		margin-left:840px;
+		margin-top: 100px;
+	}
+	
+	#sukso-size{
+		position : fixed;
+		margin-left:130px;
+		margin-top: 470px;
+	}
+	
+	#term2{
+		position : fixed;
+		margin-left:130px;
+		margin-top: 430px;
+		font-family : 'Nanum Myeongjo', serif;
+		font-size : 24px;
+		color : #FFF;
+	}
+	
+
+/*바디 백그라운드 청록색 이미지*/
+	body{
+	
+		background-image : url('images/backimage1.png');
+		background-color : #FFFFFF;
+    	background-size: cover;
+	}
+	
+	/* The Modal (background) */
+.modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   padding-top: 100px; /* Location of the box */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0, 0, 0); /* Fallback color */
+   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.tag_play {
+   margin-left: 38px;
+   display: inline-block;
+   width: 70px;
+   height: 50px;
+   background-color: #E48250;
+}
+
+.tag_food {
+   display: inline-block;
+   width: 70px;
+   height: 50px;
+   background-color: #FBD066;
+}
+
+.tag_party {
+   display: inline-block;
+   width: 70px;
+   height: 50px;
+   background-color: #BCD24A;
+}
+
+.container {
+   padding: 30px;
+   width: 90%;
+   height: 80%;
+   margin: auto; padding20px;
+   border: 2px solid #E48250
+}
+
+/* Modal Content */
+.modal-content {
+   background-color: #fefefe;
+   margin: auto;
+   padding: 20px;
+   border: 1px solid #785432;
+   width: 80%;
+}
+
+/* The Close Button */
+.close {
+   color: #aaaaaa;
+   float: right;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.tag_play:hover, .tag_food:hover, .tag_party:hover {
+   cursor: pointer;
+}
+
+.close:hover, .close:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+	
+
